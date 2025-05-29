@@ -368,7 +368,7 @@ header {
 
         /* Categories Section */
         .categories {
-            padding: 80px 0;
+            padding: 80px 15px;
             background-color: var(--white-color);
         }
 
@@ -545,7 +545,7 @@ header {
 
         /* PDF Download Section */
         .pdf-download {
-            padding: 80px 0;
+            padding: 80px 15px;
             background: var(--feminine-light);
         }
 
@@ -668,7 +668,7 @@ header {
         footer {
             background-color: #2c2c2c;
             color: #ccc;
-            padding: 60px 0 20px;
+            padding: 60px 15px 20px;
         }
 
         .footer-container {
