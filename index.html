@@ -1,49 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfuvalle - Lociones y Fragancias Premium | Tienda Online</title>
-    <meta name="description" content="Descubre las mejores lociones y fragancias en Perfuvalle. Catálogos premium para hombres, mujeres y fragancias árabes. Calidad garantizada.">
+    <meta name="description"
+        content="Descubre las mejores lociones y fragancias en Perfuvalle. Catálogos premium para hombres, mujeres y fragancias árabes. Calidad garantizada.">
     <meta name="keywords" content="lociones, fragancias, perfumes, hombres, mujeres, árabes, Perfuvalle, tienda online">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Perfuvalle - Lociones y Fragancias Premium">
-    <meta property="og:description" content="Descubre las mejores lociones y fragancias. Catálogos premium disponibles.">
+    <meta property="og:description"
+        content="Descubre las mejores lociones y fragancias. Catálogos premium disponibles.">
     <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+
 </head>
+
 <body>
-    <header>
+    <header class="header-loading">
         <div class="header-container container">
             <div class="logo">
-                <div>
-                    <div class="logo-text">Perfuvalle</div>
-                    <span class="logo-tagline">Lociones y Fragancias Premium</span>
-                </div>
+                <img src="../imagenes/logo-perfuvalle.png" alt="Perfuvalle Logo">
             </div>
-            
+
             <button class="nav-toggle">
                 <i class="fas fa-bars"></i>
             </button>
-            
+
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="masculinas.html">Masculinas</a></li>
-                    <li><a href="femeninas.html">Femeninas</a></li>
-                    <li><a href="arabes.html">Árabes</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li class="nav-item">
+                        <a href="https://www.perfuvalle.com/" class="nav-link">
+                            <i class="fas fa-home"></i>
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="https://www.perfuvalle.com/#blog" class="nav-link">
+                            <i class="fas fa-blog"></i>
+                            Blog
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link has-dropdown">
+                            <i class="fas fa-spray-can"></i>
+                            Fragancias/Lociones
+                        </a>
+                        <div class="dropdown">
+                            <a href="../masculinas.html" class="dropdown-item">
+                                <i class="fas fa-male"></i>
+                                Hombres
+                            </a>
+                            <a href="../femeninas.html" class="dropdown-item">
+                                <i class="fas fa-female"></i>
+                                Mujeres
+                            </a>
+                            <a href="../arabes.html" class="dropdown-item">
+                                <i class="fas fa-mosque"></i>
+                                Árabes
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link has-dropdown active">
+                            <i class="fas fa-wine-bottle"></i>
+                            Frascos/Envases
+                        </a>
+                        <div class="dropdown">
+                            <a href="https://frascos.perfuvalle.com/" class="dropdown-item">
+                                <i class="fas fa-info-circle"></i>
+                                Información
+                            </a>
+                            <a href="https://frascos.perfuvalle.com/productos.html" class="dropdown-item">
+                                <i class="fas fa-th-large"></i>
+                                Catálogo
+                            </a>
+                        </div>
+                    </li>
                 </ul>
             </nav>
-            
-            <a href="https://wa.me/573007572169?text=Hola,%20estoy%20interesado%20en%20sus%20lociones%20y%20fragancias." class="contact-btn" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-                Contactar
-            </a>
+
+            <div class="header-actions">
+                <a href="https://wa.me/573015999848?text=Hola,%20estoy%20interesado%20en%20sus%20frascos%20para%20perfumes."
+                    class="contact-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Contactar
+                </a>
+            </div>
         </div>
     </header>
 
@@ -51,19 +104,21 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">Descubre el Mundo de las Fragancias</h1>
-                <p class="hero-subtitle">Explora nuestra exclusiva colección de lociones y fragancias premium. Desde elegantes aromas masculinos hasta delicadas esencias femeninas y exóticas fragancias árabes.</p>
-                
+                <p class="hero-subtitle">Explora nuestra exclusiva colección de lociones y fragancias premium. Desde
+                    elegantes aromas masculinos hasta delicadas esencias femeninas y exóticas fragancias árabes.</p>
+
                 <div class="hero-buttons">
                     <a href="#categorias" class="btn btn-primary">
                         <i class="fas fa-eye"></i>
                         Explorar Catálogos
                     </a>
-                    <a href="https://wa.me/573007572169?text=Hola,%20me%20gustaría%20conocer%20más%20sobre%20sus%20fragancias." class="btn btn-outline" target="_blank">
+                    <a href="https://wa.me/573015999848?text=Hola,%20me%20gustaría%20conocer%20más%20sobre%20sus%20fragancias."
+                        class="btn btn-outline" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                         Consultar Ahora
                     </a>
                 </div>
-                
+
                 <div class="hero-stats">
                     <div class="stat-item">
                         <span class="stat-number">150+</span>
@@ -86,19 +141,22 @@
         <div class="container">
             <div class="section-title">
                 <h2>Nuestras Colecciones</h2>
-                <p class="section-subtitle">Descarga nuestros catálogos exclusivos y descubre la fragancia perfecta para cada ocasión</p>
+                <p class="section-subtitle">Descarga nuestros catálogos exclusivos y descubre la fragancia perfecta para
+                    cada ocasión</p>
             </div>
-            
+
             <div class="categories-grid">
                 <div class="category-card" onclick="location.href='masculinas.html'">
-                    <div class="category-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 250&quot;><rect fill=&quot;%23333&quot; width=&quot;400&quot; height=&quot;250&quot;/><rect fill=&quot;%23666&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%23888&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;24&quot; fill=&quot;%23fff&quot; font-weight=&quot;bold&quot;>MASCULINO</text></svg>');">
+                    <div class="category-image"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 250&quot;><rect fill=&quot;%23333&quot; width=&quot;400&quot; height=&quot;250&quot;/><rect fill=&quot;%23666&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%23888&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;24&quot; fill=&quot;%23fff&quot; font-weight=&quot;bold&quot;>MASCULINO</text></svg>');">
                         <div class="category-overlay">
                             <i class="fas fa-download" style="font-size: 2rem; color: white;"></i>
                         </div>
                     </div>
                     <div class="category-info">
                         <h3 class="category-title">Fragancias Masculinas</h3>
-                        <p class="category-description">Aromas potentes y sofisticados que definen la masculinidad moderna. Desde frescos cítricos hasta intensos amaderados.</p>
+                        <p class="category-description">Aromas potentes y sofisticados que definen la masculinidad
+                            moderna. Desde frescos cítricos hasta intensos amaderados.</p>
                         <div class="category-features">
                             <span class="feature-badge">Deportivas</span>
                             <span class="feature-badge">Elegantes</span>
@@ -112,14 +170,16 @@
                 </div>
 
                 <div class="category-card" onclick="location.href='femeninas.html'">
-                    <div class="category-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 250&quot;><rect fill=&quot;%23f8b2d4&quot; width=&quot;400&quot; height=&quot;250&quot;/><rect fill=&quot;%23f06292&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;120&quot; rx=&quot;30&quot;/><circle fill=&quot;%23e91e63&quot; cx=&quot;150&quot; cy=&quot;40&quot; r=&quot;15&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;24&quot; fill=&quot;%23fff&quot; font-weight=&quot;bold&quot;>FEMENINO</text></svg>');">
+                    <div class="category-image"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 250&quot;><rect fill=&quot;%23f8b2d4&quot; width=&quot;400&quot; height=&quot;250&quot;/><rect fill=&quot;%23f06292&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;120&quot; rx=&quot;30&quot;/><circle fill=&quot;%23e91e63&quot; cx=&quot;150&quot; cy=&quot;40&quot; r=&quot;15&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;24&quot; fill=&quot;%23fff&quot; font-weight=&quot;bold&quot;>FEMENINO</text></svg>');">
                         <div class="category-overlay">
                             <i class="fas fa-download" style="font-size: 2rem; color: white;"></i>
                         </div>
                     </div>
                     <div class="category-info">
                         <h3 class="category-title">Fragancias Femeninas</h3>
-                        <p class="category-description">Esencias delicadas y cautivadoras que resaltan la feminidad. Desde florales románticos hasta orientales seductores.</p>
+                        <p class="category-description">Esencias delicadas y cautivadoras que resaltan la feminidad.
+                            Desde florales románticos hasta orientales seductores.</p>
                         <div class="category-features">
                             <span class="feature-badge">Florales</span>
                             <span class="feature-badge">Dulces</span>
@@ -133,14 +193,16 @@
                 </div>
 
                 <div class="category-card" onclick="location.href='arabes.html'">
-                    <div class="category-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 250&quot;><rect fill=&quot;%23d4af37&quot; width=&quot;400&quot; height=&quot;250&quot;/><polygon fill=&quot;%23b8860b&quot; points=&quot;150,50 170,50 180,70 170,190 150,190 140,70&quot;/><circle fill=&quot;%23ffd700&quot; cx=&quot;160&quot; cy=&quot;40&quot; r=&quot;8&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;24&quot; fill=&quot;%23fff&quot; font-weight=&quot;bold&quot;>ÁRABE</text></svg>');">
+                    <div class="category-image"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 250&quot;><rect fill=&quot;%23d4af37&quot; width=&quot;400&quot; height=&quot;250&quot;/><polygon fill=&quot;%23b8860b&quot; points=&quot;150,50 170,50 180,70 170,190 150,190 140,70&quot;/><circle fill=&quot;%23ffd700&quot; cx=&quot;160&quot; cy=&quot;40&quot; r=&quot;8&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;24&quot; fill=&quot;%23fff&quot; font-weight=&quot;bold&quot;>ÁRABE</text></svg>');">
                         <div class="category-overlay">
                             <i class="fas fa-download" style="font-size: 2rem; color: white;"></i>
                         </div>
                     </div>
                     <div class="category-info">
                         <h3 class="category-title">Fragancias Árabes</h3>
-                        <p class="category-description">Aromas exóticos y misteriosos inspirados en la tradición oriental. Intensos, duraderos y llenos de carácter.</p>
+                        <p class="category-description">Aromas exóticos y misteriosos inspirados en la tradición
+                            oriental. Intensos, duraderos y llenos de carácter.</p>
                         <div class="category-features">
                             <span class="feature-badge">Oud</span>
                             <span class="feature-badge">Especiadas</span>
@@ -161,9 +223,11 @@
             <div class="about-container">
                 <div class="about-content">
                     <h2>¿Por qué elegir Perfuvalle?</h2>
-                    <p class="about-text">Con más de 10 años de experiencia en el mundo de las fragancias, nos hemos consolidado como referentes en la distribución de lociones y perfumes de alta calidad.</p>
-                    <p class="about-text">Nuestro compromiso es ofrecerte las mejores fragancias del mercado, cuidadosamente seleccionadas para satisfacer todos los gustos y preferencias.</p>
-                    
+                    <p class="about-text">Con más de 10 años de experiencia en el mundo de las fragancias, nos hemos
+                        consolidado como referentes en la distribución de lociones y perfumes de alta calidad.</p>
+                    <p class="about-text">Nuestro compromiso es ofrecerte las mejores fragancias del mercado,
+                        cuidadosamente seleccionadas para satisfacer todos los gustos y preferencias.</p>
+
                     <div class="about-features">
                         <div class="feature-item">
                             <i class="fas fa-award"></i>
@@ -183,9 +247,10 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="about-image">
-                    <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'><rect fill='%23f0f0f0' width='600' height='400'/><g fill='%231e8b4d' fill-opacity='0.1'><circle cx='150' cy='100' r='60'/><circle cx='450' cy='150' r='80'/><circle cx='300' cy='300' r='70'/></g><rect fill='%23333' x='250' y='120' width='100' height='160' rx='50'/><rect fill='%23666' x='270' y='100' width='60' height='40' rx='20'/><text x='300' y='200' font-family='Arial' font-size='18' fill='%23fff' text-anchor='middle'>PERFUME</text></svg>" alt="Perfuvalle - Fragancias Premium">
+                    <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'><rect fill='%23f0f0f0' width='600' height='400'/><g fill='%231e8b4d' fill-opacity='0.1'><circle cx='150' cy='100' r='60'/><circle cx='450' cy='150' r='80'/><circle cx='300' cy='300' r='70'/></g><rect fill='%23333' x='250' y='120' width='100' height='160' rx='50'/><rect fill='%23666' x='270' y='100' width='60' height='40' rx='20'/><text x='300' y='200' font-family='Arial' font-size='18' fill='%23fff' text-anchor='middle'>PERFUME</text></svg>"
+                        alt="Perfuvalle - Fragancias Premium">
                 </div>
             </div>
         </div>
@@ -197,11 +262,12 @@
                 <h2>Lo que dicen nuestros clientes</h2>
                 <p class="section-subtitle">La satisfacción de nuestros clientes es nuestra mayor recompensa</p>
             </div>
-            
+
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        "Las fragancias árabes de Perfuvalle son increíbles. La duración y la intensidad son exactamente lo que buscaba. Excelente calidad."
+                        "Las fragancias árabes de Perfuvalle son increíbles. La duración y la intensidad son exactamente
+                        lo que buscaba. Excelente calidad."
                     </div>
                     <div class="testimonial-author">María González</div>
                     <div class="testimonial-rating">
@@ -212,10 +278,11 @@
                         <i class="fas fa-star"></i>
                     </div>
                 </div>
-                
+
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        "Encontré la fragancia masculina perfecta. El catálogo es muy completo y la atención al cliente es excepcional."
+                        "Encontré la fragancia masculina perfecta. El catálogo es muy completo y la atención al cliente
+                        es excepcional."
                     </div>
                     <div class="testimonial-author">Carlos Rodríguez</div>
                     <div class="testimonial-rating">
@@ -226,10 +293,11 @@
                         <i class="fas fa-star"></i>
                     </div>
                 </div>
-                
+
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        "Las fragancias femeninas son divinas. Cada aroma cuenta una historia diferente. Totalmente recomendado."
+                        "Las fragancias femeninas son divinas. Cada aroma cuenta una historia diferente. Totalmente
+                        recomendado."
                     </div>
                     <div class="testimonial-author">Ana Martínez</div>
                     <div class="testimonial-rating">
@@ -249,7 +317,8 @@
             <div class="cta-content">
                 <h2>¿Listo para encontrar tu fragancia ideal?</h2>
                 <p>Contacta con nosotros y descubre el mundo de posibilidades que tenemos para ti</p>
-                <a href="https://wa.me/573007572169?text=Hola,%20me%20gustaría%20conocer%20más%20sobre%20sus%20catálogos%20de%20fragancias." class="whatsapp-btn" target="_blank">
+                <a href="https://wa.me/573015999848?text=Hola,%20me%20gustaría%20conocer%20más%20sobre%20sus%20catálogos%20de%20fragancias."
+                    class="whatsapp-btn" target="_blank">
                     <i class="fab fa-whatsapp"></i>
                     Contactar por WhatsApp
                 </a>
@@ -262,23 +331,21 @@
             <div class="footer-container">
                 <div class="footer-section">
                     <h3>Perfuvalle</h3>
-                    <p>Tu destino para las mejores fragancias y lociones premium. Calidad garantizada y experiencia única en cada aroma.</p>
+                    <p>Tu destino para las mejores fragancias y lociones premium. Calidad garantizada y experiencia
+                        única en cada aroma.</p>
                     <div class="social-links">
-                        <a href="#" class="social-link">
+                        <a href="https://www.facebook.com/Perfuvalle1/" class="social-link">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="https://www.instagram.com/perfuvalle/" class="social-link">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="https://wa.me/573015999848" class="social-link">
                             <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-youtube"></i>
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Catálogos</h3>
                     <ul class="footer-links">
@@ -288,29 +355,45 @@
                         <li><a href="#nosotros">Sobre Nosotros</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Atención al Cliente</h3>
                     <ul class="footer-links">
                         <li>
-                            <i class="fas fa-phone"></i>
-                            +57 300 757 2169
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>MARROQUIN SECTOR COMERCIAL LOS MANGOS, Cali, Valle del Cauca, Colombia</span>
+                        </li>
+                                                <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Carrera  26 M # 96-59</span>
+                        </li>
+                                                                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Carrera  26  M1  # 73B - 18</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+57 3015999848</span>
+                        </li>
+                                                <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+57 3188894005</span>
+                        </li>
+                                                <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+57 3011953875</span>
                         </li>
                         <li>
                             <i class="fas fa-envelope"></i>
-                            info@perfuvalle.com
-                        </li>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            Cali, Valle del Cauca, Colombia
+                            <span>perfuvallecali@hotmail.com</span>
                         </li>
                         <li>
                             <i class="fas fa-clock"></i>
-                            Lun - Sáb: 8:00AM - 6:00PM
+                            <span>Lun - Sáb: 8:00AM - 6:00PM</span>
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Información</h3>
                     <ul class="footer-links">
@@ -321,7 +404,7 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="copyright">
                 &copy; 2025 Perfuvalle - Todos los derechos reservados. Lociones y Fragancias Premium.
             </div>
@@ -329,7 +412,8 @@
     </footer>
 
     <div class="whatsapp-float">
-        <a href="https://wa.me/573007572169?text=Hola,%20estoy%20interesado%20en%20sus%20lociones%20y%20fragancias." class="whatsapp-float-btn" target="_blank">
+        <a href="https://wa.me/573015999848?text=Hola,%20estoy%20interesado%20en%20sus%20lociones%20y%20fragancias."
+            class="whatsapp-float-btn" target="_blank">
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>
@@ -338,9 +422,149 @@
         // Mobile Navigation Toggle
         const navToggle = document.querySelector('.nav-toggle');
         const mainNav = document.querySelector('.main-nav');
-        
+
         navToggle.addEventListener('click', () => {
             mainNav.classList.toggle('active');
+
+            // Cambiar icono del botón
+            const icon = navToggle.querySelector('i');
+            if (mainNav.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Mobile Dropdown Toggle
+        const navLinksWithDropdown = document.querySelectorAll('.nav-link.has-dropdown');
+
+        navLinksWithDropdown.forEach(link => {
+            link.addEventListener('click', (e) => {
+                // Solo en móvil
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    const navItem = link.closest('.nav-item');
+                    const isActive = navItem.classList.contains('mobile-active');
+
+                    // Cerrar todos los otros dropdowns móviles
+                    document.querySelectorAll('.nav-item.mobile-active').forEach(item => {
+                        if (item !== navItem) {
+                            item.classList.remove('mobile-active');
+                        }
+                    });
+
+                    // Toggle el dropdown actual
+                    navItem.classList.toggle('mobile-active');
+                }
+            });
+        });
+
+        // Cerrar menú móvil al hacer clic en un enlace
+        const allNavLinks = document.querySelectorAll('.nav-link, .dropdown-item');
+        allNavLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                // Si no es un dropdown parent en móvil, cerrar el menú
+                if (!link.classList.contains('has-dropdown') || window.innerWidth > 768) {
+                    mainNav.classList.remove('active');
+                    const icon = navToggle.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+
+                    // También cerrar dropdowns móviles
+                    document.querySelectorAll('.nav-item.mobile-active').forEach(item => {
+                        item.classList.remove('mobile-active');
+                    });
+                }
+            });
+        });
+
+        // Cerrar dropdowns al hacer clic fuera
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-item')) {
+                document.querySelectorAll('.nav-item.mobile-active').forEach(item => {
+                    item.classList.remove('mobile-active');
+                });
+            }
+        });
+
+        // Header scroll effect
+        let lastScrollTop = 0;
+        const header = document.querySelector('header');
+
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop && scrollTop > 100) {
+                // Scrolling down
+                header.style.transform = 'translateY(-100%)';
+            } else {
+                // Scrolling up
+                header.style.transform = 'translateY(0)';
+            }
+
+            lastScrollTop = scrollTop;
+        });
+
+        // Resize handler para limpiar estados móviles
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                mainNav.classList.remove('active');
+                document.querySelectorAll('.nav-item.mobile-active').forEach(item => {
+                    item.classList.remove('mobile-active');
+                });
+
+                const icon = navToggle.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Función para actualizar el estado activo del menú según la página actual
+        function updateActiveNavigation() {
+            const currentPath = window.location.pathname;
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+
+                // Lógica para determinar qué enlace debe estar activo
+                const href = link.getAttribute('href');
+                if (href === currentPath ||
+                    (currentPath.includes('/fragancias/') && link.textContent.includes('Fragancias')) ||
+                    (currentPath.includes('/frascos/') && link.textContent.includes('Frascos')) ||
+                    (currentPath.includes('/blog') && link.textContent.includes('Blog'))) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Actualizar navegación activa al cargar la página
+        document.addEventListener('DOMContentLoaded', updateActiveNavigation);
+
+        // Efecto de hover mejorado para los dropdowns
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(item => {
+            const dropdown = item.querySelector('.dropdown');
+            if (dropdown) {
+                let hoverTimer;
+
+                item.addEventListener('mouseenter', () => {
+                    clearTimeout(hoverTimer);
+                    if (window.innerWidth > 768) {
+                        dropdown.style.display = 'block';
+                    }
+                });
+
+                item.addEventListener('mouseleave', () => {
+                    if (window.innerWidth > 768) {
+                        hoverTimer = setTimeout(() => {
+                            dropdown.style.display = '';
+                        }, 100);
+                    }
+                });
+            }
         });
 
         // Smooth scrolling for anchor links
@@ -363,7 +587,7 @@
             card.addEventListener('mouseenter', () => {
                 card.style.transform = 'translateY(-10px) scale(1.02)';
             });
-            
+
             card.addEventListener('mouseleave', () => {
                 card.style.transform = 'translateY(0) scale(1)';
             });
@@ -403,4 +627,5 @@
         document.body.style.transition = 'opacity 0.3s ease';
     </script>
 </body>
+
 </html>

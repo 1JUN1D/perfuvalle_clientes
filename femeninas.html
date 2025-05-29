@@ -1,46 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fragancias Femeninas Premium | Perfuvalle - Catálogo Completo</title>
-    <meta name="description" content="Descubre nuestra exclusiva colección de fragancias femeninas. Desde delicados florales hasta seductores orientales. Descarga nuestro catálogo PDF.">
+    <meta name="description"
+        content="Descubre nuestra exclusiva colección de fragancias femeninas. Desde delicados florales hasta seductores orientales. Descarga nuestro catálogo PDF.">
     <meta name="keywords" content="fragancias femeninas, perfumes mujer, lociones femeninas, catálogo PDF, Perfuvalle">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./styles/femeninas.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
 
 </head>
+
 <body>
-    <header>
+    <header class="header-loading">
         <div class="header-container container">
             <div class="logo">
-                <div>
-                    <div class="logo-text">Perfuvalle</div>
-                    <span class="logo-tagline">Fragancias Femeninas</span>
-                </div>
+                <img src="../imagenes/logo-perfuvalle.png" alt="Perfuvalle Logo">
             </div>
-            
+
             <button class="nav-toggle">
                 <i class="fas fa-bars"></i>
             </button>
-            
+
             <nav class="main-nav">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="masculinas.html">Masculinas</a></li>
-                    <li><a href="femeninas.html">Femeninas</a></li>
-                    <li><a href="arabes.html">Árabes</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li class="nav-item">
+                        <a href="https://www.perfuvalle.com/" class="nav-link">
+                            <i class="fas fa-home"></i>
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="https://www.perfuvalle.com/#blog" class="nav-link">
+                            <i class="fas fa-blog"></i>
+                            Blog
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link has-dropdown">
+                            <i class="fas fa-spray-can"></i>
+                            Fragancias/Lociones
+                        </a>
+                        <div class="dropdown">
+                            <a href="../masculinas.html" class="dropdown-item">
+                                <i class="fas fa-male"></i>
+                                Hombres
+                            </a>
+                            <a href="../femeninas.html" class="dropdown-item">
+                                <i class="fas fa-female"></i>
+                                Mujeres
+                            </a>
+                            <a href="../arabes.html" class="dropdown-item">
+                                <i class="fas fa-mosque"></i>
+                                Árabes
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link has-dropdown active">
+                            <i class="fas fa-wine-bottle"></i>
+                            Frascos/Envases
+                        </a>
+                        <div class="dropdown">
+                            <a href="https://frascos.perfuvalle.com/" class="dropdown-item">
+                                <i class="fas fa-info-circle"></i>
+                                Información
+                            </a>
+                            <a href="https://frascos.perfuvalle.com/productos.html" class="dropdown-item">
+                                <i class="fas fa-th-large"></i>
+                                Catálogo
+                            </a>
+                        </div>
+                    </li>
                 </ul>
             </nav>
-            
-            <a href="https://wa.me/573007572169?text=Hola,%20estoy%20interesada%20en%20las%20fragancias%20femeninas." class="contact-btn" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-                Contactar
-            </a>
+
+            <div class="header-actions">
+                <a href="https://wa.me/573015999848?text=Hola,%20estoy%20interesado%20en%20sus%20frascos%20para%20perfumes."
+                    class="contact-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Contactar
+                </a>
+            </div>
         </div>
     </header>
 
@@ -48,8 +99,9 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">Fragancias Femeninas Exclusivas</h1>
-                <p class="hero-subtitle">Descubre nuestra cautivadora colección de aromas femeninos. Desde delicados florales hasta seductores orientales que expresan tu esencia única.</p>
-                
+                <p class="hero-subtitle">Descubre nuestra cautivadora colección de aromas femeninos. Desde delicados
+                    florales hasta seductores orientales que expresan tu esencia única.</p>
+
                 <a href="#pdf-download" class="download-main-btn">
                     <i class="fas fa-download"></i>
                     Descargar Catálogo PDF
@@ -64,10 +116,11 @@
                 <h2>Colección Femenina</h2>
                 <p class="section-subtitle">Aromas que celebran la feminidad en todas sus expresiones</p>
             </div>
-            
+
             <div class="fragrance-grid">
                 <div class="fragrance-card">
-                    <div class="fragrance-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%23ffb6c1&quot; width=&quot;300&quot; height=&quot;250&quot;/><circle fill=&quot;%23ff69b4&quot; cx=&quot;150&quot; cy=&quot;80&quot; r=&quot;30&quot;/><path fill=&quot;%23ff1493&quot; d=&quot;M120,110 Q150,130 180,110 Q180,140 150,160 Q120,140 120,110&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23fff&quot; text-anchor=&quot;middle&quot;>FLORAL</text></svg>');">
+                    <div class="fragrance-image"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%23ffb6c1&quot; width=&quot;300&quot; height=&quot;250&quot;/><circle fill=&quot;%23ff69b4&quot; cx=&quot;150&quot; cy=&quot;80&quot; r=&quot;30&quot;/><path fill=&quot;%23ff1493&quot; d=&quot;M120,110 Q150,130 180,110 Q180,140 150,160 Q120,140 120,110&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23fff&quot; text-anchor=&quot;middle&quot;>FLORAL</text></svg>');">
                         <span class="intensity-badge">Delicado</span>
                         <div class="fragrance-overlay">
                             <i class="fas fa-seedling" style="font-size: 2rem; color: white;"></i>
@@ -75,7 +128,8 @@
                     </div>
                     <div class="fragrance-info">
                         <h3 class="fragrance-name">Colección Floral</h3>
-                        <p class="fragrance-description">Fragancias románticas y delicadas inspiradas en jardines primaverales.</p>
+                        <p class="fragrance-description">Fragancias románticas y delicadas inspiradas en jardines
+                            primaverales.</p>
                         <div class="fragrance-notes">
                             <div class="notes-title">Notas principales:</div>
                             <div class="notes-list">
@@ -94,7 +148,8 @@
                 </div>
 
                 <div class="fragrance-card">
-                    <div class="fragrance-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%238b4513&quot; width=&quot;300&quot; height=&quot;250&quot;/><rect fill=&quot;%23d2691e&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%23f4a460&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23fff&quot; text-anchor=&quot;middle&quot;>GOURMAND</text></svg>');">
+                    <div class="fragrance-image"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%238b4513&quot; width=&quot;300&quot; height=&quot;250&quot;/><rect fill=&quot;%23d2691e&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%23f4a460&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23fff&quot; text-anchor=&quot;middle&quot;>GOURMAND</text></svg>');">
                         <span class="intensity-badge">Goloso</span>
                         <div class="fragrance-overlay">
                             <i class="fas fa-cookie-bite" style="font-size: 2rem; color: white;"></i>
@@ -102,7 +157,8 @@
                     </div>
                     <div class="fragrance-info">
                         <h3 class="fragrance-name">Colección Gourmand</h3>
-                        <p class="fragrance-description">Fragancias dulces y apetitosas que evocan deliciosos momentos.</p>
+                        <p class="fragrance-description">Fragancias dulces y apetitosas que evocan deliciosos momentos.
+                        </p>
                         <div class="fragrance-notes">
                             <div class="notes-title">Notas principales:</div>
                             <div class="notes-list">
@@ -129,7 +185,8 @@
                 </div>
 
                 <div class="fragrance-card">
-                    <div class="fragrance-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%23008080&quot; width=&quot;300&quot; height=&quot;250&quot;/><rect fill=&quot;%2320b2aa&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%2348d1cc&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23fff&quot; text-anchor=&quot;middle&quot;>FRESCO</text></svg>');">
+                    <div class="fragrance-image"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%23008080&quot; width=&quot;300&quot; height=&quot;250&quot;/><rect fill=&quot;%2320b2aa&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%2348d1cc&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23fff&quot; text-anchor=&quot;middle&quot;>FRESCO</text></svg>');">
                         <span class="intensity-badge">Refrescante</span>
                         <div class="fragrance-overlay">
                             <i class="fas fa-wind" style="font-size: 2rem; color: white;"></i>
@@ -137,7 +194,8 @@
                     </div>
                     <div class="fragrance-info">
                         <h3 class="fragrance-name">Colección Fresca</h3>
-                        <p class="fragrance-description">Aromas ligeros y revitalizantes para la mujer activa y moderna.</p>
+                        <p class="fragrance-description">Aromas ligeros y revitalizantes para la mujer activa y moderna.
+                        </p>
                         <div class="fragrance-notes">
                             <div class="notes-title">Notas principales:</div>
                             <div class="notes-list">
@@ -164,7 +222,8 @@
                 </div>
 
                 <div class="fragrance-card">
-                    <div class="fragrance-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%23800080&quot; width=&quot;300&quot; height=&quot;250&quot;/><rect fill=&quot;%239932cc&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%23ba55d3&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23fff&quot; text-anchor=&quot;middle&quot;>ORIENTAL</text></svg>');">
+                    <div class="fragrance-image"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%23800080&quot; width=&quot;300&quot; height=&quot;250&quot;/><rect fill=&quot;%239932cc&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%23ba55d3&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23fff&quot; text-anchor=&quot;middle&quot;>ORIENTAL</text></svg>');">
                         <span class="intensity-badge">Seductora</span>
                         <div class="fragrance-overlay">
                             <i class="fas fa-star" style="font-size: 2rem; color: white;"></i>
@@ -172,7 +231,8 @@
                     </div>
                     <div class="fragrance-info">
                         <h3 class="fragrance-name">Colección Oriental</h3>
-                        <p class="fragrance-description">Fragancias misteriosas y seductoras con toques exóticos cautivadores.</p>
+                        <p class="fragrance-description">Fragancias misteriosas y seductoras con toques exóticos
+                            cautivadores.</p>
                         <div class="fragrance-notes">
                             <div class="notes-title">Notas principales:</div>
                             <div class="notes-list">
@@ -199,7 +259,8 @@
                 </div>
 
                 <div class="fragrance-card">
-                    <div class="fragrance-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%23ffe4e1&quot; width=&quot;300&quot; height=&quot;250&quot;/><rect fill=&quot;%23ffc0cb&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%23ffb6c1&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23333&quot; text-anchor=&quot;middle&quot;>ROMÁNTICA</text></svg>');">
+                    <div class="fragrance-image"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 300 250&quot;><rect fill=&quot;%23ffe4e1&quot; width=&quot;300&quot; height=&quot;250&quot;/><rect fill=&quot;%23ffc0cb&quot; x=&quot;120&quot; y=&quot;50&quot; width=&quot;60&quot; height=&quot;150&quot; rx=&quot;30&quot;/><rect fill=&quot;%23ffb6c1&quot; x=&quot;140&quot; y=&quot;30&quot; width=&quot;20&quot; height=&quot;40&quot; rx=&quot;10&quot;/><text x=&quot;150&quot; y=&quot;200&quot; font-family=&quot;Arial&quot; font-size=&quot;12&quot; fill=&quot;%23333&quot; text-anchor=&quot;middle&quot;>ROMÁNTICA</text></svg>');">
                         <span class="intensity-badge">Romántica</span>
                         <div class="fragrance-overlay">
                             <i class="fas fa-heart" style="font-size: 2rem; color: white;"></i>
@@ -207,7 +268,8 @@
                     </div>
                     <div class="fragrance-info">
                         <h3 class="fragrance-name">Colección Romántica</h3>
-                        <p class="fragrance-description">Aromas tiernos y envolventes que expresan amor y feminidad pura.</p>
+                        <p class="fragrance-description">Aromas tiernos y envolventes que expresan amor y feminidad
+                            pura.</p>
                         <div class="fragrance-notes">
                             <div class="notes-title">Notas principales:</div>
                             <div class="notes-list">
@@ -243,8 +305,9 @@
                     <i class="fas fa-file-pdf"></i>
                 </div>
                 <h2 class="pdf-title">Catálogo Completo Femenino</h2>
-                <p class="pdf-description">Descarga nuestro catálogo exclusivo con más de 60 fragancias femeninas premium. Incluye descripciones detalladas, pirámides olfativas y ocasiones de uso perfectas.</p>
-                
+                <p class="pdf-description">Descarga nuestro catálogo exclusivo con más de 60 fragancias femeninas
+                    premium. Incluye descripciones detalladas, pirámides olfativas y ocasiones de uso perfectas.</p>
+
                 <div class="pdf-features">
                     <div class="pdf-feature">
                         <i class="fas fa-list"></i>
@@ -267,7 +330,7 @@
                         <p>Por expertos</p>
                     </div>
                 </div>
-                
+
                 <a href="#" class="download-btn-large" onclick="downloadPDF('femeninas')">
                     <i class="fas fa-download"></i>
                     Descargar Catálogo Femenino
@@ -281,7 +344,8 @@
             <div class="cta-content">
                 <h2>¿Encontraste tu fragancia perfecta?</h2>
                 <p>Contacta con nosotros para descubrir más sobre nuestras fragancias femeninas exclusivas</p>
-                <a href="https://wa.me/573007572169?text=Hola,%20estoy%20interesada%20en%20el%20catálogo%20de%20fragancias%20femeninas." class="whatsapp-btn" target="_blank">
+                <a href="https://wa.me/573015999848?text=Hola,%20estoy%20interesada%20en%20el%20catálogo%20de%20fragancias%20femeninas."
+                    class="whatsapp-btn" target="_blank">
                     <i class="fab fa-whatsapp"></i>
                     Consultar por WhatsApp
                 </a>
@@ -294,74 +358,89 @@
             <div class="footer-container">
                 <div class="footer-section">
                     <h3>Perfuvalle</h3>
-                    <p>Especialistas en fragancias femeninas premium. Descubre aromas únicos que expresan tu personalidad y estilo.</p>
+                    <p>Tu destino para las mejores fragancias y lociones premium. Calidad garantizada y experiencia
+                        única en cada aroma.</p>
                     <div class="social-links">
-                        <a href="#" class="social-link">
+                        <a href="https://www.facebook.com/Perfuvalle1/" class="social-link">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="https://www.instagram.com/perfuvalle/" class="social-link">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="https://wa.me/573015999848" class="social-link">
                             <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-youtube"></i>
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="footer-section">
-                    <h3>Otras Colecciones</h3>
+                    <h3>Catálogos</h3>
                     <ul class="footer-links">
                         <li><a href="masculinas.html">Fragancias Masculinas</a></li>
+                        <li><a href="femeninas.html">Fragancias Femeninas</a></li>
                         <li><a href="arabes.html">Fragancias Árabes</a></li>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="index.html#nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#nosotros">Sobre Nosotros</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
-                    <h3>Contacto</h3>
+                    <h3>Atención al Cliente</h3>
                     <ul class="footer-links">
                         <li>
-                            <i class="fas fa-phone"></i>
-                            +57 300 757 2169
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>MARROQUIN SECTOR COMERCIAL LOS MANGOS, Cali, Valle del Cauca, Colombia</span>
+                        </li>
+                                                <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Carrera  26 M # 96-59</span>
+                        </li>
+                                                                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Carrera  26  M1  # 73B - 18</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+57 3015999848</span>
+                        </li>
+                                                <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+57 3188894005</span>
+                        </li>
+                                                <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+57 3011953875</span>
                         </li>
                         <li>
                             <i class="fas fa-envelope"></i>
-                            info@perfuvalle.com
-                        </li>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            Cali, Valle del Cauca, Colombia
+                            <span>perfuvallecali@hotmail.com</span>
                         </li>
                         <li>
                             <i class="fas fa-clock"></i>
-                            Lun - Sáb: 8:00AM - 6:00PM
+                            <span>Lun - Sáb: 8:00AM - 6:00PM</span>
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Información</h3>
                     <ul class="footer-links">
-                        <li><a href="#inicio">Fragancias Femeninas</a></li>
-                        <li><a href="#pdf-download">Descargar Catálogo</a></li>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#categorias">Nuestras Colecciones</a></li>
+                        <li><a href="#nosotros">¿Por qué Perfuvalle?</a></li>
                         <li><a href="#contacto">Contacto</a></li>
-                        <li><a href="index.html">Volver al Inicio</a></li>
                     </ul>
                 </div>
             </div>
-            
+
             <div class="copyright">
-                &copy; 2025 Perfuvalle - Todos los derechos reservados. Fragancias Femeninas Premium.
+                &copy; 2025 Perfuvalle - Todos los derechos reservados. Lociones y Fragancias Premium.
             </div>
         </div>
     </footer>
 
     <div class="whatsapp-float">
-        <a href="https://wa.me/573007572169?text=Hola,%20estoy%20interesada%20en%20las%20fragancias%20femeninas." class="whatsapp-float-btn" target="_blank">
+        <a href="https://wa.me/573015999848?text=Hola,%20estoy%20interesada%20en%20las%20fragancias%20femeninas."
+            class="whatsapp-float-btn" target="_blank">
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>
@@ -370,9 +449,149 @@
         // Mobile Navigation Toggle
         const navToggle = document.querySelector('.nav-toggle');
         const mainNav = document.querySelector('.main-nav');
-        
+
         navToggle.addEventListener('click', () => {
             mainNav.classList.toggle('active');
+
+            // Cambiar icono del botón
+            const icon = navToggle.querySelector('i');
+            if (mainNav.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Mobile Dropdown Toggle
+        const navLinksWithDropdown = document.querySelectorAll('.nav-link.has-dropdown');
+
+        navLinksWithDropdown.forEach(link => {
+            link.addEventListener('click', (e) => {
+                // Solo en móvil
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    const navItem = link.closest('.nav-item');
+                    const isActive = navItem.classList.contains('mobile-active');
+
+                    // Cerrar todos los otros dropdowns móviles
+                    document.querySelectorAll('.nav-item.mobile-active').forEach(item => {
+                        if (item !== navItem) {
+                            item.classList.remove('mobile-active');
+                        }
+                    });
+
+                    // Toggle el dropdown actual
+                    navItem.classList.toggle('mobile-active');
+                }
+            });
+        });
+
+        // Cerrar menú móvil al hacer clic en un enlace
+        const allNavLinks = document.querySelectorAll('.nav-link, .dropdown-item');
+        allNavLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                // Si no es un dropdown parent en móvil, cerrar el menú
+                if (!link.classList.contains('has-dropdown') || window.innerWidth > 768) {
+                    mainNav.classList.remove('active');
+                    const icon = navToggle.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+
+                    // También cerrar dropdowns móviles
+                    document.querySelectorAll('.nav-item.mobile-active').forEach(item => {
+                        item.classList.remove('mobile-active');
+                    });
+                }
+            });
+        });
+
+        // Cerrar dropdowns al hacer clic fuera
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-item')) {
+                document.querySelectorAll('.nav-item.mobile-active').forEach(item => {
+                    item.classList.remove('mobile-active');
+                });
+            }
+        });
+
+        // Header scroll effect
+        let lastScrollTop = 0;
+        const header = document.querySelector('header');
+
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop && scrollTop > 100) {
+                // Scrolling down
+                header.style.transform = 'translateY(-100%)';
+            } else {
+                // Scrolling up
+                header.style.transform = 'translateY(0)';
+            }
+
+            lastScrollTop = scrollTop;
+        });
+
+        // Resize handler para limpiar estados móviles
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                mainNav.classList.remove('active');
+                document.querySelectorAll('.nav-item.mobile-active').forEach(item => {
+                    item.classList.remove('mobile-active');
+                });
+
+                const icon = navToggle.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Función para actualizar el estado activo del menú según la página actual
+        function updateActiveNavigation() {
+            const currentPath = window.location.pathname;
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+
+                // Lógica para determinar qué enlace debe estar activo
+                const href = link.getAttribute('href');
+                if (href === currentPath ||
+                    (currentPath.includes('/fragancias/') && link.textContent.includes('Fragancias')) ||
+                    (currentPath.includes('/frascos/') && link.textContent.includes('Frascos')) ||
+                    (currentPath.includes('/blog') && link.textContent.includes('Blog'))) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Actualizar navegación activa al cargar la página
+        document.addEventListener('DOMContentLoaded', updateActiveNavigation);
+
+        // Efecto de hover mejorado para los dropdowns
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(item => {
+            const dropdown = item.querySelector('.dropdown');
+            if (dropdown) {
+                let hoverTimer;
+
+                item.addEventListener('mouseenter', () => {
+                    clearTimeout(hoverTimer);
+                    if (window.innerWidth > 768) {
+                        dropdown.style.display = 'block';
+                    }
+                });
+
+                item.addEventListener('mouseleave', () => {
+                    if (window.innerWidth > 768) {
+                        hoverTimer = setTimeout(() => {
+                            dropdown.style.display = '';
+                        }, 100);
+                    }
+                });
+            }
         });
 
         // Smooth scrolling for anchor links
@@ -390,16 +609,16 @@
         });
 
         // PDF Download Function
-function downloadPDF(category) {
-   // Crear elemento temporal para descargar
-   const link = document.createElement('a');
-   link.href = '../archivos/CAT_MUJER_MAYO2025.pdf';
-   link.download = 'Catalogo_Mujer_Perfuvalle.pdf';
-   document.body.appendChild(link);
-   link.click();
-   document.body.removeChild(link);
+        function downloadPDF(category) {
+            // Crear elemento temporal para descargar
+            const link = document.createElement('a');
+            link.href = '../archivos/CAT_MUJER_MAYO2025.pdf';
+            link.download = 'Catalogo_Mujer_Perfuvalle.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
 
-}
+        }
 
         // Fragrance cards hover effect
         const fragranceCards = document.querySelectorAll('.fragrance-card');
@@ -407,7 +626,7 @@ function downloadPDF(category) {
             card.addEventListener('mouseenter', () => {
                 card.style.transform = 'translateY(-8px) scale(1.02)';
             });
-            
+
             card.addEventListener('mouseleave', () => {
                 card.style.transform = 'translateY(0) scale(1)';
             });
@@ -447,4 +666,5 @@ function downloadPDF(category) {
         document.body.style.transition = 'opacity 0.3s ease';
     </script>
 </body>
+
 </html>
